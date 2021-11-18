@@ -1,14 +1,24 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: SF-Pro-Text; }
+
+@font-face {
+  font-family: SF-Pro-Text;
+  src: url(../assets/fonts/sf-pro-text_regular.woff2); }
+
+@font-face {
+  font-family: SF-Pro-Display;
+  src: url(../assets/fonts/sf-pro-text_regular.woff2); }
 
 .wrapper .top-nav {
   max-width: 100vw;
-  background: black;
+  background: #141414;
   padding: 10px 0;
   position: sticky;
-  top: 0; }
+  top: 0;
+  font-size: 12px; }
   .wrapper .top-nav-lst {
     display: flex;
     justify-content: space-around;
