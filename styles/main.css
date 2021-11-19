@@ -67,8 +67,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto auto;
-  background: #FBEDF9;
-  overflow: hidden; }
+  background: #FBEDF9; }
   .grid .holiday-adv {
     grid-row: 1 / span 1;
     grid-column: 1 / span 2;
@@ -100,7 +99,8 @@
       display: flex;
       justify-content: space-around;
       flex-flow: column wrap;
-      align-items: center; }
+      align-items: center;
+      height: 245px; }
       .grid .main-content .top-content .apple-gift-logo {
         background-image: url(../assets/images/logo__dcojfwkzna2q_large_2x.png);
         background-repeat: no-repeat;
@@ -127,6 +127,22 @@
         .grid .main-content .top-content .shop-gifts span {
           font-family: SF-Pro-Icon; }
     .grid .main-content .bottom-content {
-      margin-top: 26px; }
-      .grid .main-content .bottom-content img {
-        width: 289px; }
+      display: flex;
+      justify-content: center;
+      margin-top: 26px;
+      height: 420px; }
+      .grid .main-content .bottom-content figure {
+        width: 409px;
+        height: 348px; }
+      .grid .main-content .bottom-content figure:nth-child(1) {
+        background-image: url(../assets/images/ipadair__fkr21evsr6a2_large_2x.png);
+        background-repeat: no-repeat;
+        background-size: contain; }
+      .grid .main-content .bottom-content figure:nth-child(2) {
+        background-image: url(../assets/images/ipadmini__f0pd6cilwaie_large_2x.png);
+        background-repeat: no-repeat;
+        background-size: contain; }
+      .grid .main-content .bottom-content figure:nth-child(3) {
+        background-image: url(../assets/images/macbook__d0g7o7oqt282_large_2x.png);
+        background-repeat: no-repeat;
+        background-size: contain; }
