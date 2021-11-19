@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: SF-Pro-Text, "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  font-family: SF-Pro-Text, "Myriad Set Pro", SF-Pro-Icon, "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
 @font-face {
   font-family: SF-Pro-Text;
@@ -63,41 +63,70 @@
       left: 0;
       margin-left: 30px; }
 
-.wrapper .page-1 .holiday-adv {
-  max-width: 100vw;
-  color: #FFFFFF;
-  background: #E34140;
-  padding: 12px 0; }
-  .wrapper .page-1 .holiday-adv p {
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 400;
-    letter-spacing: -0.374px; }
-    .wrapper .page-1 .holiday-adv p a {
-      text-indent: 3px;
-      text-decoration: none;
-      color: white; }
-      .wrapper .page-1 .holiday-adv p a span {
-        font-family: SF-Pro-Icon; }
-
-.wrapper .page-1 .main-content {
-  max-width: 100vw;
-  height: 100vh;
-  background: orange;
-  display: flex;
-  justify-content: space-around;
-  flex-flow: column wrap;
-  align-items: center; }
-  .wrapper .page-1 .main-content .top-content {
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  background: #FBEDF9;
+  overflow: hidden; }
+  .grid .holiday-adv {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 2;
+    max-width: 100vw;
+    color: #FFFFFF;
+    background: #E34140;
+    padding: 13px 0; }
+    .grid .holiday-adv p {
+      display: flex;
+      justify-content: center;
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 400;
+      letter-spacing: -0.374px; }
+      .grid .holiday-adv p a {
+        text-indent: 3px;
+        text-decoration: none;
+        color: white; }
+        .grid .holiday-adv p a span {
+          font-family: SF-Pro-Icon; }
+  .grid .main-content {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 2;
     display: flex;
     justify-content: space-around;
     flex-flow: column wrap;
-    align-items: center;
-    height: 400px; }
-  .wrapper .page-1 .main-content .bottom-content {
-    background: pink;
-    width: 100vw;
-    display: flex;
-    justify-content: space-around; }
+    align-items: center; }
+    .grid .main-content .top-content {
+      display: flex;
+      justify-content: space-around;
+      flex-flow: column wrap;
+      align-items: center; }
+      .grid .main-content .top-content .apple-gift-logo {
+        background-image: url(../assets/images/logo__dcojfwkzna2q_large_2x.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 88px;
+        min-width: 70px;
+        margin-top: 29px; }
+      .grid .main-content .top-content .headline {
+        font-size: 56px;
+        flex-shrink: 1;
+        font-weight: 600;
+        letter-spacing: -3px;
+        line-height: 60px;
+        margin-top: 20px;
+        font-family: SF-Pro-Text, SF-Pro-Icon,"Helvetica Neue","Helvetica","Arial",sans-serif; }
+      .grid .main-content .top-content .shop-gifts {
+        font-family: SF-Pro-Display, SF-Pro-Icon, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        font-size: 21px;
+        color: #0066cc;
+        text-decoration: #0066cc;
+        font-weight: 400;
+        letter-spacing: 0.231px;
+        margin-top: 9px; }
+        .grid .main-content .top-content .shop-gifts span {
+          font-family: SF-Pro-Icon; }
+    .grid .main-content .bottom-content {
+      margin-top: 26px; }
+      .grid .main-content .bottom-content img {
+        width: 289px; }
