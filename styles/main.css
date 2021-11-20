@@ -121,7 +121,7 @@
 .grid {
   width: 2560px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto auto;
   grid-template-rows: repeat(7, auto);
   grid-gap: 12px;
   position: relative;
@@ -209,89 +209,121 @@
   .grid .macbook {
     grid-row: 5 / span 1;
     grid-column: 1 / span 1;
-    min-height: 580px;
-    background-image: url(../assets/images/tile_macbookpro__cx0ur0qg9biq_large.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; }
+    position: relative;
+    height: 580px; }
     .grid .macbook-content {
       display: flex;
       flex-flow: column wrap;
       align-items: center;
-      margin-top: 44px; }
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      position: absolute;
+      top: 0;
+      height: 580px;
+      width: calc(min(50vw, 100%));
+      right: 0;
+      background-image: url(../assets/images/tile_macbookpro__cx0ur0qg9biq_large.jpg); }
     .grid .macbook .cta-links a:nth-child(2) {
       margin-left: 28px; }
   .grid .watch {
     grid-row: 5 / span 1;
     grid-column: 2 / span 1;
-    height: 580px;
-    background-image: url(../assets/images/tile_watch__e9n11b6m6yq2_large.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; }
+    position: relative;
+    height: 580px; }
     .grid .watch-content {
       display: flex;
       flex-flow: column wrap;
       align-items: center;
-      margin-top: 44px; }
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      position: absolute;
+      top: 0;
+      height: 580px;
+      width: calc(min(50vw, 100%));
+      left: 0;
+      background-image: url(../assets/images/tile_watch__e9n11b6m6yq2_large.jpg); }
     .grid .watch .cta-links a:nth-child(2) {
       margin-left: 28px; }
   .grid .homepod {
     grid-row: 6 / span 1;
     grid-column: 1 / span 1;
-    height: 580px;
-    min-width: 1262px;
-    background-image: url(../assets/images/tile_homepod_mini__b73w4z3ljymu_large.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; }
+    position: relative;
+    height: 580px; }
     .grid .homepod-content {
       display: flex;
       flex-flow: column wrap;
       align-items: center;
-      margin-top: 44px; }
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      position: absolute;
+      top: 0;
+      height: 580px;
+      width: calc(min(50vw, 100%));
+      right: 0;
+      background-image: url(../assets/images/tile_homepod_mini__b73w4z3ljymu_large.jpg); }
     .grid .homepod .cta-links a:nth-child(2) {
       margin-left: 28px; }
   .grid .arcade {
     grid-row: 6 / span 1;
     grid-column: 2 / span 1;
-    height: 580px;
-    min-width: 1262px;
-    background-image: url(../assets/images/tile_lego_castaways__d2v36ez91ewm_large.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; }
+    position: relative;
+    height: 580px; }
     .grid .arcade-content {
       display: flex;
       flex-flow: column wrap;
       align-items: center;
-      margin-top: 44px; }
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      position: absolute;
+      top: 0;
+      height: 580px;
+      width: calc(min(50vw, 100%));
+      left: 0;
+      background-image: url(../assets/images/tile_lego_castaways__d2v36ez91ewm_large.jpg); }
     .grid .arcade .cta-links a:nth-child(2) {
       margin-left: 28px; }
   .grid .card {
     grid-row: 7 / span 1;
     grid-column: 1 / span 1;
-    height: 580px;
-    min-width: 1262px;
-    background-image: url(../assets/images/tile__cauwwcyyn9hy_large.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; }
+    position: relative;
+    height: 580px; }
     .grid .card-content {
       display: flex;
       flex-flow: column wrap;
       align-items: center;
-      margin-top: 44px; }
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      position: absolute;
+      top: 0;
+      height: 580px;
+      width: calc(min(50vw, 100%));
+      right: 0;
+      background-image: url(../assets/images/tile__cauwwcyyn9hy_large.jpg); }
     .grid .card .cta-links a:nth-child(2) {
       margin-left: 28px; }
   .grid .tv {
     grid-row: 7 / span 1;
     grid-column: 2 / span 1;
-    height: 580px;
-    min-width: 1262px;
-    background-image: url(../assets/images/promo_dickinson__c9ea4l2f5rki_large.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; }
+    position: relative;
+    height: 580px; }
     .grid .tv-content {
       display: flex;
       flex-flow: column wrap;
       align-items: center;
-      margin-top: 44px; }
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      position: absolute;
+      top: 0;
+      height: 580px;
+      width: calc(min(50vw, 100%));
+      left: 0;
+      background-image: url(../assets/images/promo_dickinson__c9ea4l2f5rki_large.jpg); }
     .grid .tv .cta-links a:nth-child(2) {
       margin-left: 28px; }
 
