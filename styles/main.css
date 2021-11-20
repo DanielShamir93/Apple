@@ -122,7 +122,7 @@
   width: 2560px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto auto auto;
+  grid-template-rows: repeat(7, auto);
   grid-gap: 12px;
   transform: translateY(-12px);
   margin: auto; }
@@ -156,14 +156,20 @@
         height: 348px; }
       .grid .landing-page .bottom-content figure:nth-child(1) {
         background-image: url(../assets/images/ipadair__fkr21evsr6a2_large_2x.png);
+        background-size: 359px 348px;
+        border-image-repeat: stretch;
         background-repeat: no-repeat;
         background-size: contain; }
       .grid .landing-page .bottom-content figure:nth-child(2) {
         background-image: url(../assets/images/ipadmini__f0pd6cilwaie_large_2x.png);
+        background-size: 359px 348px;
+        border-image-repeat: stretch;
         background-repeat: no-repeat;
         background-size: contain; }
       .grid .landing-page .bottom-content figure:nth-child(3) {
         background-image: url(../assets/images/macbook__d0g7o7oqt282_large_2x.png);
+        background-size: 359px 348px;
+        border-image-repeat: stretch;
         background-repeat: no-repeat;
         background-size: contain; }
   .grid .iphone-13-pro {
@@ -172,9 +178,13 @@
     max-width: 100vw;
     height: 736px;
     background-image: url(../assets/images/hero_iphone_13pro__dhnsegysa42u_largetall.jpg);
-    background-size: 160%;
+    background-size: 3010px 736px;
     background-repeat: no-repeat;
-    background-position: -30vw 0; }
+    background-position: -30vw 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-width: 1;
+    border-color: #1d1d1f; }
     .grid .iphone-13-pro-content {
       display: flex;
       flex-flow: column wrap;
@@ -190,9 +200,13 @@
     max-width: 100vw;
     height: 736px;
     background-image: url(../assets/images/hero_iphone_13__f194u1rdooeq_largetall.jpg);
-    background-size: 160%;
+    background-size: 3010px 736px;
     background-repeat: no-repeat;
-    background-position: -30vw 0; }
+    background-position: -30vw 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-width: 1;
+    border-color: #1d1d1f; }
     .grid .iphone-13-content {
       display: flex;
       flex-flow: column wrap;
@@ -202,3 +216,21 @@
       width: 200px;
       display: flex;
       justify-content: space-between; }
+  .grid .macbook {
+    grid-row: 5 / span 1;
+    grid-column: 1 / span 1; }
+  .grid .watch {
+    grid-row: 5 / span 1;
+    grid-column: 2 / span 1; }
+  .grid .home-pad {
+    grid-row: 6 / span 1;
+    grid-column: 1 / span 1; }
+  .grid .arcade {
+    grid-row: 6 / span 1;
+    grid-column: 2 / span 1; }
+  .grid .card {
+    grid-row: 7 / span 1;
+    grid-column: 1 / span 1; }
+  .grid .tv {
+    grid-row: 7 / span 1;
+    grid-column: 2 / span 1; }
