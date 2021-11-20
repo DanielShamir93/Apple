@@ -57,7 +57,7 @@
   .cta-links a {
     text-decoration: none;
     color: #0066cc;
-    padding-right: 40px; }
+    padding-right: 35px; }
   .cta-links span {
     font-family: SF-Pro-Icon; }
 
@@ -191,19 +191,16 @@
   .grid .iphone-13-pro {
     grid-row: 3 / span 1;
     grid-column: 1 / span 2;
-    height: 736px;
+    height: 690px;
     background-image: url(../assets/images/hero_iphone_13pro__dhnsegysa42u_largetall.jpg);
-    background-size: cover;
+    background-size: 120%;
     background-repeat: no-repeat;
-    background-position: -250px 0; }
+    background-position: -250px -60px; }
     .grid .iphone-13-pro-content {
       display: flex;
       flex-flow: column wrap;
       align-items: center;
       margin-top: 35px; }
-    .grid .iphone-13-pro .cta-links {
-      display: flex;
-      justify-content: space-between; }
   .grid .iphone-13 {
     grid-row: 4 / span 1;
     grid-column: 1 / span 2;
