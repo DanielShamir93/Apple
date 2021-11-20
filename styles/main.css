@@ -51,15 +51,13 @@
   line-height: 1.381;
   font-weight: 400;
   letter-spacing: -0.05rem;
-  font-family: SF-Pro-Text, SF-Pro-Icon,"Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-family: SF-Pro-Display, SF-Pro-Icon,"Helvetica Neue","Helvetica","Arial",sans-serif;
   margin-top: 0.6rem;
   transform: translateX(15px); }
   .cta-links a {
     text-decoration: none;
-    color: #0066cc;
-    padding-right: 35px; }
-  .cta-links span {
-    font-family: SF-Pro-Icon; }
+    padding-right: 35px;
+    color: #0066cc; }
 
 .top-nav {
   width: 100vw;
@@ -236,8 +234,13 @@
       width: calc(min(50vw, 100%));
       right: 0;
       background-image: url(../assets/images/tile_macbookpro__cx0ur0qg9biq_large.jpg); }
-    .grid .macbook .cta-links a:nth-child(2) {
-      margin-left: 28px; }
+    .grid .macbook h4 {
+      font-size: 40px;
+      padding-top: 40px; }
+    .grid .macbook h5 {
+      font-size: 21px; }
+    .grid .macbook .cta-links {
+      font-size: 17px; }
   .grid .watch {
     grid-row: 5 / span 1;
     grid-column: 2 / span 1;
@@ -256,8 +259,18 @@
       width: calc(min(50vw, 100%));
       left: 0;
       background-image: url(../assets/images/tile_watch__e9n11b6m6yq2_large.jpg); }
-    .grid .watch .cta-links a:nth-child(2) {
-      margin-left: 28px; }
+    .grid .watch .new-text {
+      color: #C65E20;
+      font-size: 12px;
+      padding-top: 40px; }
+    .grid .watch img {
+      padding: 10px; }
+    .grid .watch h5 {
+      font-size: 21px; }
+    .grid .watch .cta-links {
+      font-size: 17px; }
+      .grid .watch .cta-links a sup {
+        font-size: 10.2px; }
   .grid .homepod {
     grid-row: 6 / span 1;
     grid-column: 1 / span 1;
@@ -276,8 +289,11 @@
       width: calc(min(50vw, 100%));
       right: 0;
       background-image: url(../assets/images/tile_homepod_mini__b73w4z3ljymu_large.jpg); }
-    .grid .homepod .cta-links a:nth-child(2) {
-      margin-left: 28px; }
+    .grid .homepod h4 {
+      font-size: 40px;
+      padding-top: 40px; }
+    .grid .homepod .cta-links {
+      font-size: 17px; }
   .grid .arcade {
     grid-row: 6 / span 1;
     grid-column: 2 / span 1;
@@ -296,8 +312,15 @@
       width: calc(min(50vw, 100%));
       left: 0;
       background-image: url(../assets/images/tile_lego_castaways__d2v36ez91ewm_large.jpg); }
-    .grid .arcade .cta-links a:nth-child(2) {
-      margin-left: 28px; }
+    .grid .arcade h4 {
+      font-size: 40px;
+      padding-top: 40px; }
+    .grid .arcade h5 {
+      font-size: 21px; }
+    .grid .arcade .cta-links {
+      font-size: 17px; }
+      .grid .arcade .cta-links a sup {
+        font-size: 10.2px; }
   .grid .card {
     grid-row: 7 / span 1;
     grid-column: 1 / span 1;
@@ -316,8 +339,14 @@
       width: calc(min(50vw, 100%));
       right: 0;
       background-image: url(../assets/images/tile__cauwwcyyn9hy_large.jpg); }
-    .grid .card .cta-links a:nth-child(2) {
-      margin-left: 28px; }
+    .grid .card h4 {
+      font-size: 40px;
+      padding-top: 40px; }
+    .grid .card h5 {
+      font-size: 21px;
+      text-align: center; }
+    .grid .card .cta-links {
+      font-size: 17px; }
   .grid .tv {
     grid-row: 7 / span 1;
     grid-column: 2 / span 1;
@@ -336,8 +365,15 @@
       width: calc(min(50vw, 100%));
       left: 0;
       background-image: url(../assets/images/promo_dickinson__c9ea4l2f5rki_large.jpg); }
-    .grid .tv .cta-links a:nth-child(2) {
-      margin-left: 28px; }
+    .grid .tv h4 {
+      font-size: 40px;
+      padding-top: 40px;
+      color: white;
+      padding-bottom: 280px; }
+    .grid .tv a {
+      padding-top: 10px;
+      text-decoration: none;
+      color: white; }
 
 .footer {
   width: 100vw;
