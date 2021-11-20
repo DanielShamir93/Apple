@@ -380,7 +380,8 @@
   background: #F5F5F7; }
   .footer .details {
     width: 980px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 17px 0; }
     .footer .details ul {
       list-style: none; }
     .footer .details ul li {
@@ -391,6 +392,11 @@
       font-size: 12px;
       font-weight: 400;
       line-height: 16px; }
+    .footer .details hr {
+      margin-top: 10px;
+      color: #6e6e73;
+      border-top: transparent;
+      opacity: 0.3; }
   .footer .directory-grid {
     display: grid;
     grid-template-rows: 1fr;
@@ -406,7 +412,7 @@
     .footer .directory-grid .account {
       grid-row: 1 / span 1;
       grid-column: 2 / span 1;
-      padding-top: 260px; }
+      padding-top: 325px; }
     .footer .directory-grid .apple-store {
       grid-row: 1 / span 1;
       grid-column: 3 / span 1; }
@@ -416,24 +422,30 @@
     .footer .directory-grid .for-education {
       grid-row: 1 / span 1;
       grid-column: 4 / span 1;
-      padding-top: 80px; }
+      padding-top: 90px; }
     .footer .directory-grid .for-healthcare {
       grid-row: 1 / span 1;
       grid-column: 4 / span 1;
-      padding-top: 180px; }
+      padding-top: 210px; }
     .footer .directory-grid .for-government {
       grid-row: 1 / span 1;
       grid-column: 4 / span 1;
-      padding-top: 270px; }
+      padding-top: 330px; }
     .footer .directory-grid .apple-values {
       grid-row: 1 / span 1;
       grid-column: 5 / span 1; }
     .footer .directory-grid .about-apple {
       grid-row: 1 / span 1;
       grid-column: 5 / span 1;
-      padding-top: 200px; }
+      padding-top: 220px; }
     .footer .directory-grid ul {
       list-style: none; }
+    .footer .directory-grid ul li {
+      padding: 3px 0; }
+    .footer .directory-grid ul li:first-child {
+      font-weight: 600;
+      color: black;
+      font-size: 12px; }
     .footer .directory-grid ul li a {
       font-size: 12px;
       text-decoration: none;
@@ -441,18 +453,39 @@
   .footer .footer-bottom {
     width: 980px;
     margin: 0 auto;
+    margin-top: 30px;
+    padding-bottom: 30px;
     font-size: 12px;
-    position: relative; }
+    position: relative;
+    color: #6e6e73; }
+    .footer .footer-bottom .ways-to-shop a {
+      color: #0066cc;
+      text-decoration: none; }
+    .footer .footer-bottom hr {
+      margin: 10px 0;
+      color: #6e6e73;
+      border-top: transparent;
+      opacity: 0.3; }
     .footer .footer-bottom .copyright {
       position: absolute;
       left: 0; }
     .footer .footer-bottom .legal-nav-lst {
       display: flex;
       justify-content: center;
-      list-style: none; }
+      list-style: none;
+      margin-left: 60px; }
     .footer .footer-bottom .legal-nav-lst li {
-      margin-right: 10px; }
+      margin-right: 10px;
+      border-right: #6e6e73 solid 1px;
+      padding-right: 10px; }
+      .footer .footer-bottom .legal-nav-lst li a {
+        text-decoration: none;
+        color: #424245; }
+    .footer .footer-bottom .legal-nav-lst li:last-child {
+      border-right: transparent; }
     .footer .footer-bottom .region {
       position: absolute;
       right: 0;
-      bottom: 0; }
+      bottom: 30px;
+      text-decoration: none;
+      color: #424245; }
