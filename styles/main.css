@@ -204,20 +204,20 @@
   .grid .iphone-13 {
     grid-row: 4 / span 1;
     grid-column: 1 / span 2;
-    height: 736px;
+    height: 690px;
     background-image: url(../assets/images/hero_iphone_13__f194u1rdooeq_largetall.jpg);
     background-size: 3010px 736px;
     background-repeat: no-repeat;
-    background-position: -200px 0; }
+    background-position: -225px -45px; }
     .grid .iphone-13-content {
       display: flex;
       flex-flow: column wrap;
       align-items: center;
-      margin-top: 55px; }
-    .grid .iphone-13 .cta-links {
-      width: 200px;
-      display: flex;
-      justify-content: space-between; }
+      margin-top: 35px; }
+    .grid .iphone-13 .headline {
+      color: white; }
+    .grid .iphone-13 .subhead {
+      color: #fec2eb; }
   .grid .macbook {
     grid-row: 5 / span 1;
     grid-column: 1 / span 1;
