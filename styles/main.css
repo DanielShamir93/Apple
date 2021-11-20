@@ -343,3 +343,68 @@
       font-size: 12px;
       font-weight: 400;
       line-height: 16px; }
+  .footer .directory-grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(5, 1fr);
+    width: 980px;
+    margin: 0 auto; }
+    .footer .directory-grid .shop-and-learn {
+      grid-row: 1 / span 1;
+      grid-column: 1 / span 1; }
+    .footer .directory-grid .services {
+      grid-row: 1 / span 1;
+      grid-column: 2 / span 1; }
+    .footer .directory-grid .account {
+      grid-row: 1 / span 1;
+      grid-column: 2 / span 1;
+      padding-top: 260px; }
+    .footer .directory-grid .apple-store {
+      grid-row: 1 / span 1;
+      grid-column: 3 / span 1; }
+    .footer .directory-grid .for-business {
+      grid-row: 1 / span 1;
+      grid-column: 4 / span 1; }
+    .footer .directory-grid .for-education {
+      grid-row: 1 / span 1;
+      grid-column: 4 / span 1;
+      padding-top: 80px; }
+    .footer .directory-grid .for-healthcare {
+      grid-row: 1 / span 1;
+      grid-column: 4 / span 1;
+      padding-top: 180px; }
+    .footer .directory-grid .for-government {
+      grid-row: 1 / span 1;
+      grid-column: 4 / span 1;
+      padding-top: 270px; }
+    .footer .directory-grid .apple-values {
+      grid-row: 1 / span 1;
+      grid-column: 5 / span 1; }
+    .footer .directory-grid .about-apple {
+      grid-row: 1 / span 1;
+      grid-column: 5 / span 1;
+      padding-top: 200px; }
+    .footer .directory-grid ul {
+      list-style: none; }
+    .footer .directory-grid ul li a {
+      font-size: 12px;
+      text-decoration: none;
+      color: #424245; }
+  .footer .footer-bottom {
+    width: 980px;
+    margin: 0 auto;
+    font-size: 12px;
+    position: relative; }
+    .footer .footer-bottom .copyright {
+      position: absolute;
+      left: 0; }
+    .footer .footer-bottom .legal-nav-lst {
+      display: flex;
+      justify-content: center;
+      list-style: none; }
+    .footer .footer-bottom .legal-nav-lst li {
+      margin-right: 10px; }
+    .footer .footer-bottom .region {
+      position: absolute;
+      right: 0;
+      bottom: 0; }
