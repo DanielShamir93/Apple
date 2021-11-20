@@ -209,11 +209,10 @@
   .grid .macbook {
     grid-row: 5 / span 1;
     grid-column: 1 / span 1;
-    height: 580px;
-    min-width: 1262px;
+    min-height: 580px;
     background-image: url(../assets/images/tile_macbookpro__cx0ur0qg9biq_large.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-size: cover; }
     .grid .macbook-content {
       display: flex;
       flex-flow: column wrap;
@@ -225,7 +224,6 @@
     grid-row: 5 / span 1;
     grid-column: 2 / span 1;
     height: 580px;
-    min-width: 1262px;
     background-image: url(../assets/images/tile_watch__e9n11b6m6yq2_large.jpg);
     background-size: cover;
     background-repeat: no-repeat; }
@@ -296,3 +294,20 @@
       margin-top: 44px; }
     .grid .tv .cta-links a:nth-child(2) {
       margin-left: 28px; }
+
+.footer {
+  width: 100vw;
+  background: #F5F5F7; }
+  .footer .details {
+    width: 980px;
+    margin: 0 auto; }
+    .footer .details ul {
+      list-style: none; }
+    .footer .details ul li {
+      padding-bottom: 9.6px; }
+    .footer .details p {
+      color: #6e6e73;
+      font-feature-settings: "kern";
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px; }
