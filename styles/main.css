@@ -74,9 +74,13 @@
     margin: 0 auto; }
     .top-nav-lst li {
       padding: 0 21px;
-      position: relative; }
+      position: relative;
+      opacity: 0.8;
+      transition: all 0.3s; }
     .top-nav-lst li:first-child {
       padding-left: 0; }
+    .top-nav-lst li:hover {
+      opacity: 1; }
     .top-nav-lst li a {
       font-weight: 400;
       opacity: 0.8;
@@ -130,11 +134,20 @@
     font-weight: 400;
     letter-spacing: -0.374px; }
     .holiday-adv p a {
-      text-indent: 3px;
       text-decoration: none;
-      color: white; }
+      color: white;
+      margin: 0 3px;
+      position: relative; }
       .holiday-adv p a span {
         font-family: SF-Pro-Icon; }
+    .holiday-adv p a:hover::before {
+      content: "";
+      position: absolute;
+      height: 1px;
+      width: 100%;
+      background: white;
+      left: 0;
+      bottom: 3px; }
 
 .grid {
   width: 2560px;
