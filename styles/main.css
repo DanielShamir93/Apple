@@ -32,7 +32,7 @@
 
 .headline {
   font-size: 56px;
-  font-weight: 600;
+  font-weight: bold;
   line-height: 1.07143;
   letter-spacing: -0.2rem;
   margin-top: 20px;
@@ -42,9 +42,8 @@
 .subhead {
   font-size: 28px;
   font-weight: 400;
-  letter-spacing: 0.112px;
-  margin-top: 10px;
-  text-align: center;
+  letter-spacing: -0.12rem;
+  margin-top: 5px;
   font-feature-settings: "kern"; }
 
 .cta-links {
@@ -53,10 +52,12 @@
   font-weight: 400;
   letter-spacing: -0.05rem;
   font-family: SF-Pro-Text, SF-Pro-Icon,"Helvetica Neue","Helvetica","Arial",sans-serif;
-  margin-top: 0.65em; }
+  margin-top: 0.6rem;
+  transform: translateX(15px); }
   .cta-links a {
     text-decoration: none;
-    color: #0066cc; }
+    color: #0066cc;
+    padding-right: 40px; }
   .cta-links span {
     font-family: SF-Pro-Icon; }
 
@@ -150,45 +151,41 @@
     grid-row: 2 / span 1;
     grid-column: 1 / span 2;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     align-items: center;
     background: #EEEFFE; }
     .grid .landing-page .top-content {
       display: flex;
       flex-flow: column wrap;
-      align-items: center;
-      height: 245px; }
+      align-items: center; }
       .grid .landing-page .top-content .apple-gift-logo {
         background-image: url(../assets/images/logo__dcojfwkzna2q_large_2x.png);
         background-repeat: no-repeat;
         background-size: contain;
         height: 88px;
         min-width: 70px;
-        margin-top: 29px; }
+        margin-top: 37px; }
     .grid .landing-page .bottom-content {
       display: flex;
       justify-content: center;
-      margin-top: 26px;
-      height: 420px; }
+      padding-top: 37px;
+      margin-bottom: 28px;
+      height: 420px;
+      transform: translateX(20px); }
       .grid .landing-page .bottom-content figure {
-        width: 409px;
-        height: 348px; }
+        width: 370px;
+        height: 370px;
+        margin-right: 40px; }
       .grid .landing-page .bottom-content figure:nth-child(1) {
-        background-image: url(../assets/images/ipadair__fkr21evsr6a2_large_2x.png);
-        background-size: 359px 348px;
-        border-image-repeat: stretch;
+        background-image: url(../assets/images/macbook__d0g7o7oqt282_large_2x.png);
         background-repeat: no-repeat;
         background-size: contain; }
       .grid .landing-page .bottom-content figure:nth-child(2) {
         background-image: url(../assets/images/ipadmini__f0pd6cilwaie_large_2x.png);
-        background-size: 100% 348px;
-        border-image-repeat: stretch;
         background-repeat: no-repeat;
         background-size: contain; }
       .grid .landing-page .bottom-content figure:nth-child(3) {
-        background-image: url(../assets/images/macbook__d0g7o7oqt282_large_2x.png);
-        background-size: 359px 348px;
-        border-image-repeat: stretch;
+        background-image: url(../assets/images/ipadair__fkr21evsr6a2_large_2x.png);
         background-repeat: no-repeat;
         background-size: contain; }
   .grid .iphone-13-pro {
@@ -203,9 +200,8 @@
       display: flex;
       flex-flow: column wrap;
       align-items: center;
-      margin-top: 55px; }
+      margin-top: 35px; }
     .grid .iphone-13-pro .cta-links {
-      width: 200px;
       display: flex;
       justify-content: space-between; }
   .grid .iphone-13 {
