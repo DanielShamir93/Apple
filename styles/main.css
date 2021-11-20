@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: SF-Pro-Text, "Myriad Set Pro", SF-Pro-Icon, "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
+:root {
+  user-select: none; }
+
 @font-face {
   font-family: SF-Pro-Text;
   src: url(../assets/fonts/sf-pro-text_regular.woff2); }
@@ -15,6 +18,14 @@
 @font-face {
   font-family: SF-Pro-Icon;
   src: url(../assets/fonts/sf-pro-icons_regular.woff2); }
+
+@font-face {
+  font-family: SF-Pro-Display-Semibold;
+  src: url(../assets/fonts/sf-pro-display_semibold.woff2); }
+
+@font-face {
+  font-family: SF-Pro-Text-Semibold;
+  src: url(../assets/fonts/sf-pro-text_semibold.woff2); }
 
 .wrapper {
   overflow: hidden; }
@@ -50,24 +61,30 @@
     font-family: SF-Pro-Icon; }
 
 .top-nav {
-  max-width: 100vw;
-  background: #141414;
-  position: sticky;
-  top: 0; }
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.92);
+  position: fixed;
+  top: 0;
+  z-index: 1000; }
   .top-nav-lst {
     display: flex;
     justify-content: center;
     color: #FFFFFF;
     list-style: none;
-    line-height: 44px;
+    line-height: 42px;
     margin: 0 auto; }
     .top-nav-lst li {
-      width: fit-content;
+      padding: 0 21px;
+      position: relative; }
+    .top-nav-lst li:first-child {
+      padding-left: 0; }
+    .top-nav-lst li a {
+      font-weight: 400;
       opacity: 0.8;
       font-size: 12px;
       letter-spacing: -0.12px;
-      padding: 0 20px;
-      position: relative; }
+      text-decoration: none;
+      color: #FFFFFF; }
     .top-nav-lst .apple-icon {
       background-image: url(../assets/icons/globalnav_apple_image__b5er5ngrzxqq_large.svg);
       background-size: contain;
@@ -76,7 +93,8 @@
       width: 33px;
       height: 44px;
       position: absolute;
-      left: 0; }
+      left: 0;
+      transform: translateX(-11px); }
     .top-nav-lst .search-icon {
       background-image: url(../assets/icons/globalnav_search_image__cbllq1gkias2_large.svg);
       background-repeat: no-repeat;
@@ -103,7 +121,8 @@
   background: #E34140;
   padding: 13px 0;
   max-width: 2560px;
-  margin: auto; }
+  margin: auto;
+  margin-top: 42px; }
   .holiday-adv p {
     display: flex;
     justify-content: center;
@@ -133,7 +152,7 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    background: #FBEDF9; }
+    background: #EEEFFE; }
     .grid .landing-page .top-content {
       display: flex;
       flex-flow: column wrap;
